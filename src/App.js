@@ -4,7 +4,7 @@ import printJS from 'print-js'
 function App() {
   return (
     <div className="App">
-   <button type="button" onClick={()=>printJS('test.pdf')}>
+   <button type="button" onClick={()=>printJS('printtest/test.pdf')}>
     Print PDF
  </button>
     </div>
