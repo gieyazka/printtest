@@ -4,14 +4,20 @@
   "private": true,
   "homepage": "https://gieyazka.github.io/printtest",
   "dependencies": {
+    "@react-pdf/renderer": "^2.1.0",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "jspdf": "^2.5.0",
     "print-js": "^1.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-pdf": "^5.6.0",
+    "react-read-pdf": "^2.0.9",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "react-to-print": "^2.14.3",
+    "web-vitals": "^2.1.4",
+    "worker-loader": "^3.0.8"
   },
   "scripts": {
     "predeploy": "npm run build",
